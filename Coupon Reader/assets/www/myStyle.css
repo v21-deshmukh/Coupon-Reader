@@ -1,0 +1,71 @@
+
+div.first_screen
+{
+width:250px;
+height:200px;
+position:relative;
+left:550px;
+top:100px;
+background-image:url('../images/ABP.jpg');
+animation:fadeOut 5s linear forwards;
+animation-iteration-count: fadeOut 1;
+} 
+p.comp_name
+{
+font-size:20px;
+font-color:blue;
+position:relative;
+left:100px;
+}
+
+p.pwd_by{
+position:relative;
+left:20px;
+bottom:30px;
+}
+
+img.logo{
+width:100px;
+height:50px;
+right: 130px
+top:70px;
+}
+
+div.login{
+position:relative;
+/* top:160px;
+left:550px; */
+animation: fadeIn 15s linear backwards;
+}
+
+
+div.scan{
+position:relative;
+top:160px;
+left:530px;
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+	50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+div.h1{
+	font-color:red;
+}
